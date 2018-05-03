@@ -162,4 +162,32 @@ input[type=submit]{
     font-size: 10px;
     color: #dcdcdc
 }
-@media screen 
+@media screen and (max-width:980) {
+    #main-bio{
+        width: 980px;
+    }
+}
+@media screen and (max-width:768) {
+    #main-bio{
+        width: 768px;
+        position: static;
+    }
+    header{
+        position: static;
+    }
+    h1{
+        position: static;
+    }
+}
+@media screen and (max-width:640) {
+    #main-bio{
+        width: 640px;
+        position: static;
+    }
+    header{
+        position: static;
+    }
+    h1{
+        position: static;
+    }
+}
